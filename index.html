@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>测试</title>
     <script type="text/javascript" charset="utf-8">
-     document.getElementById("s3").addEventListener("show", function(e){
-         alert("the context menu will be displayed");
-     }, false);
+     document.ready(function(){
+        document.getElementById("s3").addEventListener("show", function(e){
+            alert("the context menu will be displayed");
+        }, false);
+     });
     </script>
     <style>
      html,body{
