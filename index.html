@@ -2,12 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>测试</title>
     <script type="text/javascript" charset="utf-8">
-      alert("test");
-      alert("test");
+     document.getElementById("s3").addEventListener("show", function(e){
+         alert("the context menu will be displayed");
+     }, false);
     </script>
+    <style>
+     .section{
+         width:100%;
+         height:100%;
+     }
+     #s1{
+         background-color:red;
+     }
+     #s2{
+         background-color:blue;
+     }
+     #s1{
+         background-color:black;
+     }
+     #s1{
+         background-color:green;
+     }
+
+    </style>
   </head>
   <body>
     <section id='s1' class="section">
